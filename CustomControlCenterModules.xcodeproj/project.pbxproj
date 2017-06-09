@@ -14,6 +14,9 @@
 		6F0596B51EE9C260003702AD /* TestLauncherModule.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestLauncherModule.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F0596B81EE9C260003702AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F0596BC1EE9C67B003702AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FEB296B1EE9EA69004B5300 /* Launcher.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Launcher.PNG; sourceTree = "<group>"; };
+		6FEB296C1EE9EA69004B5300 /* Launcher-Expanded.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Launcher-Expanded.PNG"; sourceTree = "<group>"; };
+		6FEB296D1EE9EAAF004B5300 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +49,29 @@
 		6F0596B71EE9C260003702AD /* TestLauncherModule */ = {
 			isa = PBXGroup;
 			children = (
+				6FEB296E1EE9EB48004B5300 /* src */,
+				6FEB296A1EE9EA52004B5300 /* Screenshots */,
+				6FEB296D1EE9EAAF004B5300 /* README.md */,
+			);
+			path = TestLauncherModule;
+			sourceTree = "<group>";
+		};
+		6FEB296A1EE9EA52004B5300 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				6FEB296B1EE9EA69004B5300 /* Launcher.PNG */,
+				6FEB296C1EE9EA69004B5300 /* Launcher-Expanded.PNG */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
+		6FEB296E1EE9EB48004B5300 /* src */ = {
+			isa = PBXGroup;
+			children = (
 				6F0596BC1EE9C67B003702AD /* Assets.xcassets */,
 				6F0596B81EE9C260003702AD /* Info.plist */,
 			);
-			path = TestLauncherModule;
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +215,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = TestLauncherModule/Info.plist;
+				INFOPLIST_FILE = TestLauncherModule/src/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -252,7 +274,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = TestLauncherModule/Info.plist;
+				INFOPLIST_FILE = TestLauncherModule/src/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
