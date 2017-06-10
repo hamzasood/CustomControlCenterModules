@@ -27,6 +27,9 @@
 		6FEB29801EEAF0F8004B5300 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FEB29821EEB014D004B5300 /* HSMenuModuleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSMenuModuleViewController.h; sourceTree = "<group>"; };
 		6FEB29831EEB014D004B5300 /* HSMenuModuleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSMenuModuleViewController.m; sourceTree = "<group>"; };
+		6FFD4E3B1EEB25F8001B8FB3 /* Menu-Expanded.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Menu-Expanded.PNG"; sourceTree = "<group>"; };
+		6FFD4E3C1EEB25F8001B8FB3 /* Menu.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Menu.PNG; sourceTree = "<group>"; };
+		6FFD4E3D1EEB2664001B8FB3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,15 @@
 			path = TestLauncherModule;
 			sourceTree = "<group>";
 		};
+		6F6597EA1EEB090200042B4F /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				6FFD4E3C1EEB25F8001B8FB3 /* Menu.PNG */,
+				6FFD4E3B1EEB25F8001B8FB3 /* Menu-Expanded.PNG */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		6FEB296A1EE9EA52004B5300 /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				6FEB29791EEAEDEC004B5300 /* src */,
+				6F6597EA1EEB090200042B4F /* Screenshots */,
+				6FFD4E3D1EEB2664001B8FB3 /* README.md */,
 			);
 			path = TestMenuModule;
 			sourceTree = "<group>";
