@@ -17,6 +17,9 @@
 		6FEBAF2A1EEDA2980039BE60 /* HSCustomUIModuleContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEBAF291EEDA2980039BE60 /* HSCustomUIModuleContentViewController.m */; };
 		6FF0E3511EEF04730024E40B /* HSCustomUIModuleBackgroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF0E3501EEF04730024E40B /* HSCustomUIModuleBackgroundViewController.m */; };
 		6FF0E3541EEF0AB30024E40B /* HSCustomUIModuleAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF0E3531EEF0AB30024E40B /* HSCustomUIModuleAnimationView.m */; };
+		6FF0E3591EEF245A0024E40B /* Custom-On.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6FF0E3561EEF245A0024E40B /* Custom-On.PNG */; };
+		6FF0E35A1EEF245A0024E40B /* Custom-Off.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6FF0E3571EEF245A0024E40B /* Custom-Off.PNG */; };
+		6FF0E35B1EEF245A0024E40B /* Custom-Expanded.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6FF0E3581EEF245A0024E40B /* Custom-Expanded.PNG */; };
 		6FFA605F1EEEC86400221CE4 /* Animation Images in Resources */ = {isa = PBXBuildFile; fileRef = 6FFA605E1EEEC86400221CE4 /* Animation Images */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +49,10 @@
 		6FF0E3501EEF04730024E40B /* HSCustomUIModuleBackgroundViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSCustomUIModuleBackgroundViewController.m; sourceTree = "<group>"; };
 		6FF0E3521EEF0AB30024E40B /* HSCustomUIModuleAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSCustomUIModuleAnimationView.h; sourceTree = "<group>"; };
 		6FF0E3531EEF0AB30024E40B /* HSCustomUIModuleAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSCustomUIModuleAnimationView.m; sourceTree = "<group>"; };
+		6FF0E3561EEF245A0024E40B /* Custom-On.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Custom-On.PNG"; sourceTree = "<group>"; };
+		6FF0E3571EEF245A0024E40B /* Custom-Off.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Custom-Off.PNG"; sourceTree = "<group>"; };
+		6FF0E3581EEF245A0024E40B /* Custom-Expanded.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Custom-Expanded.PNG"; sourceTree = "<group>"; };
+		6FF0E35C1EEF24A40024E40B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6FFA605E1EEEC86400221CE4 /* Animation Images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Animation Images"; path = "../../../../../Downloads/CustomWatchFaceTest-master/Animation Images"; sourceTree = "<group>"; };
 		6FFD4E3B1EEB25F8001B8FB3 /* Menu-Expanded.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Menu-Expanded.PNG"; sourceTree = "<group>"; };
 		6FFD4E3C1EEB25F8001B8FB3 /* Menu.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Menu.PNG; sourceTree = "<group>"; };
@@ -120,6 +127,8 @@
 			isa = PBXGroup;
 			children = (
 				6F9F8F531EED72D500D6D1B1 /* src */,
+				6FF0E3551EEF23610024E40B /* Screenshots */,
+				6FF0E35C1EEF24A40024E40B /* README.md */,
 			);
 			path = TestCustomUIModule;
 			sourceTree = "<group>";
@@ -182,6 +191,16 @@
 				6FEB29751EEAEDCB004B5300 /* Info.plist */,
 			);
 			path = src;
+			sourceTree = "<group>";
+		};
+		6FF0E3551EEF23610024E40B /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				6FF0E3571EEF245A0024E40B /* Custom-Off.PNG */,
+				6FF0E3561EEF245A0024E40B /* Custom-On.PNG */,
+				6FF0E3581EEF245A0024E40B /* Custom-Expanded.PNG */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,7 +309,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F688D3C1EEDB82800902B5F /* Assets.xcassets in Resources */,
+				6FF0E35B1EEF245A0024E40B /* Custom-Expanded.PNG in Resources */,
+				6FF0E3591EEF245A0024E40B /* Custom-On.PNG in Resources */,
 				6FFA605F1EEEC86400221CE4 /* Animation Images in Resources */,
+				6FF0E35A1EEF245A0024E40B /* Custom-Off.PNG in Resources */,
 				6FEBAF271EED9FE60039BE60 /* ButtonGlyph.ca in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
