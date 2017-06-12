@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<caml xmlns="http://www.apple.com/CoreAnimation/1.0">
+  <CAReplicatorLayer instanceCount="2" instanceTransform="rotate(-180deg, 1, 0, 0) scale(-1)" allowsEdgeAntialiasing="0" allowsGroupOpacity="1" bounds="0 0 48 48" contentsFormat="RGBA8">
+    <sublayers>
+      <CAShapeLayer id="Head-Torso-Legs" lineWidth="2" path="24 8.5 m 21.238576250846 8.5 19 10.738576250846 19 13.5 c 19 16.261423749154 21.238576250846 18.5 24 18.5 c 24 30.5 l 18.26423563649 38.69152044289 l" allowsEdgeAntialiasing="0" allowsGroupOpacity="1" contentsFormat="RGBA8" name="Head-Torso-Legs">
+	<fillColor opacity="0" value="0 0 0"/>
+      </CAShapeLayer>
+      <CALayer id="Arm" allowsEdgeAntialiasing="0" allowsGroupOpacity="1" anchorPoint="1 0.5" bounds="0 0 8 2" contentsFormat="RGBA8" name="Arm" position="24 22.5"/>
+    </sublayers>
+    <states>
+      <LKState name="off" initial="true">
+	<elements>
+	  <LKStateSetValue keyPath="transform.rotation.z">
+	    <target object="Arm"/>
+	    <value type="real" value="-0.7853981633974"/>
+	  </LKStateSetValue>
+	  <LKStateSetValue keyPath="strokeColor">
+	    <target type="CAShapeLayer" object="Head-Torso-Legs"/>
+	    <value type="CGColor" value="1 1 1"/>
+	  </LKStateSetValue>
+	  <LKStateSetValue keyPath="backgroundColor">
+	    <target object="Arm"/>
+	    <value type="CGColor" value="1 1 1"/>
+	  </LKStateSetValue>
+	</elements>
+      </LKState>
+      <LKState name="on">
+	<elements>
+	  <LKStateSetValue keyPath="transform.rotation.z">
+	    <target object="Arm"/>
+	    <value type="real" value="0.3490658503989"/>
+	  </LKStateSetValue>
+	  <LKStateSetValue keyPath="strokeColor">
+	    <target type="CAShapeLayer" object="Head-Torso-Legs"/>
+	    <value type="CGColor" value="0.5 0 0.5"/>
+	  </LKStateSetValue>
+	  <LKStateSetValue keyPath="backgroundColor">
+	    <target object="Arm"/>
+	    <value type="CGColor" value="0.5 0 0.5"/>
+	  </LKStateSetValue>
+	</elements>
+      </LKState>
+    </states>
+    <stateTransitions>
+      <LKStateTransition fromState="off" toState="on">
+	<elements>
+	  <LKStateTransitionElement key="strokeColor">
+	    <target type="CAShapeLayer" object="Head-Torso-Legs"/>
+	    <animation type="CABasicAnimation" keyPath="strokeColor" duration="0.25"/>
+	  </LKStateTransitionElement>
+	  <LKStateTransitionElement key="backgroundColor">
+	    <target object="Arm"/>
+	    <animation type="CABasicAnimation" keyPath="backgroundColor" duration="0.25"/>
+	  </LKStateTransitionElement>
+	  <LKStateTransitionElement key="transform.rotation.z">
+	    <target object="Arm"/>
+	    <animation type="CABasicAnimation" keyPath="transform.rotation.z" duration="0.5"/>
+	  </LKStateTransitionElement>
+	</elements>
+      </LKStateTransition>
+      <LKStateTransition fromState="on" toState="off">
+	<elements>
+	  <LKStateTransitionElement key="strokeColor">
+	    <target type="CAShapeLayer" object="Head-Torso-Legs"/>
+	    <animation type="CABasicAnimation" keyPath="strokeColor" duration="0.25"/>
+	  </LKStateTransitionElement>
+	  <LKStateTransitionElement key="backgroundColor">
+	    <target object="Arm"/>
+	    <animation type="CABasicAnimation" keyPath="backgroundColor" duration="0.25"/>
+	  </LKStateTransitionElement>
+	  <LKStateTransitionElement key="transform.rotation.z">
+	    <target object="Arm"/>
+	    <animation type="CABasicAnimation" keyPath="transform.rotation.z" duration="0.5"/>
+	  </LKStateTransitionElement>
+	</elements>
+      </LKStateTransition>
+    </stateTransitions>
+  </CAReplicatorLayer>
+</caml>

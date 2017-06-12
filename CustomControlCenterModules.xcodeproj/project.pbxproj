@@ -8,15 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		6F0596BD1EE9C67B003702AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F0596BC1EE9C67B003702AD /* Assets.xcassets */; };
+		6F688D3C1EEDB82800902B5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F688D3B1EEDB82800902B5F /* Assets.xcassets */; };
+		6F9F8F561EED74D200D6D1B1 /* HSCustomUIModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9F8F551EED74D200D6D1B1 /* HSCustomUIModule.m */; };
 		6FEB297C1EEAEE5A004B5300 /* HSMenuModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEB297B1EEAEE5A004B5300 /* HSMenuModule.m */; };
 		6FEB29811EEAF0F8004B5300 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FEB29801EEAF0F8004B5300 /* Assets.xcassets */; };
 		6FEB29841EEB014D004B5300 /* HSMenuModuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEB29831EEB014D004B5300 /* HSMenuModuleViewController.m */; };
+		6FEBAF271EED9FE60039BE60 /* ButtonGlyph.ca in Resources */ = {isa = PBXBuildFile; fileRef = 6FEBAF261EED9FE60039BE60 /* ButtonGlyph.ca */; };
+		6FEBAF2A1EEDA2980039BE60 /* HSCustomUIModuleContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEBAF291EEDA2980039BE60 /* HSCustomUIModuleContentViewController.m */; };
+		6FF0E3511EEF04730024E40B /* HSCustomUIModuleBackgroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF0E3501EEF04730024E40B /* HSCustomUIModuleBackgroundViewController.m */; };
+		6FF0E3541EEF0AB30024E40B /* HSCustomUIModuleAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF0E3531EEF0AB30024E40B /* HSCustomUIModuleAnimationView.m */; };
+		6FFA605F1EEEC86400221CE4 /* Animation Images in Resources */ = {isa = PBXBuildFile; fileRef = 6FFA605E1EEEC86400221CE4 /* Animation Images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6F0596B51EE9C260003702AD /* TestLauncherModule.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestLauncherModule.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F0596B81EE9C260003702AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F0596BC1EE9C67B003702AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F688D3B1EEDB82800902B5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F9F8F4D1EED72B300D6D1B1 /* TestCustomUIModule.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCustomUIModule.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F9F8F4F1EED72B400D6D1B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F9F8F541EED74D200D6D1B1 /* HSCustomUIModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSCustomUIModule.h; sourceTree = "<group>"; };
+		6F9F8F551EED74D200D6D1B1 /* HSCustomUIModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSCustomUIModule.m; sourceTree = "<group>"; };
 		6FEB296B1EE9EA69004B5300 /* Launcher.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Launcher.PNG; sourceTree = "<group>"; };
 		6FEB296C1EE9EA69004B5300 /* Launcher-Expanded.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Launcher-Expanded.PNG"; sourceTree = "<group>"; };
 		6FEB296D1EE9EAAF004B5300 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -27,6 +39,14 @@
 		6FEB29801EEAF0F8004B5300 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FEB29821EEB014D004B5300 /* HSMenuModuleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSMenuModuleViewController.h; sourceTree = "<group>"; };
 		6FEB29831EEB014D004B5300 /* HSMenuModuleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSMenuModuleViewController.m; sourceTree = "<group>"; };
+		6FEBAF261EED9FE60039BE60 /* ButtonGlyph.ca */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ButtonGlyph.ca; sourceTree = "<group>"; };
+		6FEBAF281EEDA2980039BE60 /* HSCustomUIModuleContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSCustomUIModuleContentViewController.h; sourceTree = "<group>"; };
+		6FEBAF291EEDA2980039BE60 /* HSCustomUIModuleContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSCustomUIModuleContentViewController.m; sourceTree = "<group>"; };
+		6FF0E34F1EEF04730024E40B /* HSCustomUIModuleBackgroundViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSCustomUIModuleBackgroundViewController.h; sourceTree = "<group>"; };
+		6FF0E3501EEF04730024E40B /* HSCustomUIModuleBackgroundViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSCustomUIModuleBackgroundViewController.m; sourceTree = "<group>"; };
+		6FF0E3521EEF0AB30024E40B /* HSCustomUIModuleAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSCustomUIModuleAnimationView.h; sourceTree = "<group>"; };
+		6FF0E3531EEF0AB30024E40B /* HSCustomUIModuleAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSCustomUIModuleAnimationView.m; sourceTree = "<group>"; };
+		6FFA605E1EEEC86400221CE4 /* Animation Images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Animation Images"; path = "../../../../../Downloads/CustomWatchFaceTest-master/Animation Images"; sourceTree = "<group>"; };
 		6FFD4E3B1EEB25F8001B8FB3 /* Menu-Expanded.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Menu-Expanded.PNG"; sourceTree = "<group>"; };
 		6FFD4E3C1EEB25F8001B8FB3 /* Menu.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Menu.PNG; sourceTree = "<group>"; };
 		6FFD4E3D1EEB2664001B8FB3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -34,6 +54,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		6F0596B21EE9C260003702AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F9F8F4A1EED72B300D6D1B1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -55,6 +82,7 @@
 			children = (
 				6F0596B71EE9C260003702AD /* TestLauncherModule */,
 				6FEB29741EEAEDCB004B5300 /* TestMenuModule */,
+				6F9F8F4E1EED72B400D6D1B1 /* TestCustomUIModule */,
 				6F0596B61EE9C260003702AD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +92,7 @@
 			children = (
 				6F0596B51EE9C260003702AD /* TestLauncherModule.bundle */,
 				6FEB29731EEAEDCB004B5300 /* TestMenuModule.bundle */,
+				6F9F8F4D1EED72B300D6D1B1 /* TestCustomUIModule.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,6 +114,33 @@
 				6FFD4E3B1EEB25F8001B8FB3 /* Menu-Expanded.PNG */,
 			);
 			path = Screenshots;
+			sourceTree = "<group>";
+		};
+		6F9F8F4E1EED72B400D6D1B1 /* TestCustomUIModule */ = {
+			isa = PBXGroup;
+			children = (
+				6F9F8F531EED72D500D6D1B1 /* src */,
+			);
+			path = TestCustomUIModule;
+			sourceTree = "<group>";
+		};
+		6F9F8F531EED72D500D6D1B1 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				6F688D3B1EEDB82800902B5F /* Assets.xcassets */,
+				6FFA605E1EEEC86400221CE4 /* Animation Images */,
+				6FEBAF261EED9FE60039BE60 /* ButtonGlyph.ca */,
+				6F9F8F541EED74D200D6D1B1 /* HSCustomUIModule.h */,
+				6F9F8F551EED74D200D6D1B1 /* HSCustomUIModule.m */,
+				6FEBAF281EEDA2980039BE60 /* HSCustomUIModuleContentViewController.h */,
+				6FEBAF291EEDA2980039BE60 /* HSCustomUIModuleContentViewController.m */,
+				6FF0E34F1EEF04730024E40B /* HSCustomUIModuleBackgroundViewController.h */,
+				6FF0E3501EEF04730024E40B /* HSCustomUIModuleBackgroundViewController.m */,
+				6FF0E3521EEF0AB30024E40B /* HSCustomUIModuleAnimationView.h */,
+				6FF0E3531EEF0AB30024E40B /* HSCustomUIModuleAnimationView.m */,
+				6F9F8F4F1EED72B400D6D1B1 /* Info.plist */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 		6FEB296A1EE9EA52004B5300 /* Screenshots */ = {
@@ -148,6 +204,23 @@
 			productReference = 6F0596B51EE9C260003702AD /* TestLauncherModule.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
+		6F9F8F4C1EED72B300D6D1B1 /* TestCustomUIModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F9F8F521EED72B400D6D1B1 /* Build configuration list for PBXNativeTarget "TestCustomUIModule" */;
+			buildPhases = (
+				6F9F8F491EED72B300D6D1B1 /* Sources */,
+				6F9F8F4A1EED72B300D6D1B1 /* Frameworks */,
+				6F9F8F4B1EED72B300D6D1B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestCustomUIModule;
+			productName = TestCustomUIModule;
+			productReference = 6F9F8F4D1EED72B300D6D1B1 /* TestCustomUIModule.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		6FEB29721EEAEDCB004B5300 /* TestMenuModule */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6FEB29761EEAEDCB004B5300 /* Build configuration list for PBXNativeTarget "TestMenuModule" */;
@@ -176,6 +249,9 @@
 					6F0596B41EE9C260003702AD = {
 						CreatedOnToolsVersion = 9.0;
 					};
+					6F9F8F4C1EED72B300D6D1B1 = {
+						CreatedOnToolsVersion = 9.0;
+					};
 					6FEB29721EEAEDCB004B5300 = {
 						CreatedOnToolsVersion = 9.0;
 					};
@@ -195,6 +271,7 @@
 			targets = (
 				6F0596B41EE9C260003702AD /* TestLauncherModule */,
 				6FEB29721EEAEDCB004B5300 /* TestMenuModule */,
+				6F9F8F4C1EED72B300D6D1B1 /* TestCustomUIModule */,
 			);
 		};
 /* End PBXProject section */
@@ -205,6 +282,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F0596BD1EE9C67B003702AD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F9F8F4B1EED72B300D6D1B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F688D3C1EEDB82800902B5F /* Assets.xcassets in Resources */,
+				6FFA605F1EEEC86400221CE4 /* Animation Images in Resources */,
+				6FEBAF271EED9FE60039BE60 /* ButtonGlyph.ca in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +310,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F9F8F491EED72B300D6D1B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FEBAF2A1EEDA2980039BE60 /* HSCustomUIModuleContentViewController.m in Sources */,
+				6F9F8F561EED74D200D6D1B1 /* HSCustomUIModule.m in Sources */,
+				6FF0E3511EEF04730024E40B /* HSCustomUIModuleBackgroundViewController.m in Sources */,
+				6FF0E3541EEF0AB30024E40B /* HSCustomUIModuleAnimationView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +482,120 @@
 			};
 			name = Release;
 		};
+		6F9F8F501EED72B400D6D1B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = TestCustomUIModule/src/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamzasood.CCModules.TestCustomUIModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		6F9F8F511EED72B400D6D1B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = TestCustomUIModule/src/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamzasood.CCModules.TestCustomUIModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		6FEB29771EEAEDCB004B5300 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -515,6 +727,15 @@
 			buildConfigurations = (
 				6F0596BA1EE9C260003702AD /* Debug */,
 				6F0596BB1EE9C260003702AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F9F8F521EED72B400D6D1B1 /* Build configuration list for PBXNativeTarget "TestCustomUIModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F9F8F501EED72B400D6D1B1 /* Debug */,
+				6F9F8F511EED72B400D6D1B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
