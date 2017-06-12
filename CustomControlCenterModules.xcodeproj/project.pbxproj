@@ -28,6 +28,7 @@
 		6F0596B81EE9C260003702AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F0596BC1EE9C67B003702AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F688D3B1EEDB82800902B5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F6950DF1EEF2C5300E7F2EE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6F9F8F4D1EED72B300D6D1B1 /* TestCustomUIModule.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCustomUIModule.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F9F8F4F1EED72B400D6D1B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F9F8F541EED74D200D6D1B1 /* HSCustomUIModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSCustomUIModule.h; sourceTree = "<group>"; };
@@ -87,6 +88,7 @@
 		6F0596AA1EE9C210003702AD = {
 			isa = PBXGroup;
 			children = (
+				6F6950DF1EEF2C5300E7F2EE /* README.md */,
 				6F0596B71EE9C260003702AD /* TestLauncherModule */,
 				6FEB29741EEAEDCB004B5300 /* TestMenuModule */,
 				6F9F8F4E1EED72B400D6D1B1 /* TestCustomUIModule */,
